@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Diffusers</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+
+    <div class="basket-icon" id="basket-icon">
+        <i class="fa-solid fa-cart-shopping"></i>
+    </div>
+
+    <div class="center-image-container" id="home">
+        <img src="logo.png" alt="The logo" class="center-image">
+    </div>
+
+    <section class="products" id="products">
+        <div class="container2">
+            <div class="product" data-product-id="15">
+                <img src="Diffusers/Diffuser1.jpg">
+                <div class="product-info">
+                    <h3>4500YR</h3>
+                    <button class="basket-btn">
+                        <i class="fa-solid fa-cart-shopping"></i>
+                    </button>
+                </div>
+            </div>
+            <div class="product" data-product-id="16">
+                <img src="Diffusers/Diffuser2.jpg">
+                <div class="product-info">
+                    <h3>2000YR</h3>
+                    <button class="basket-btn">
+                        <i class="fa-solid fa-cart-shopping"></i>
+                    </button>
+                </div>
+            </div>
+            <div class="product" data-product-id="17">
+                <img src="Diffusers/Diffuser3.jpg">
+                <div class="product-info">
+                    <h3>2250YR</h3>
+                    <button class="basket-btn">
+                        <i class="fa-solid fa-cart-shopping"></i>
+                    </button>
+                </div>
+            </div>
+            <div class="product" data-product-id="18">
+                <img src="Diffusers/Diffuser4.jpg">
+                <div class="product-info">
+                    <h3>2500YR</h3>
+                    <button class="basket-btn">
+                        <i class="fa-solid fa-cart-shopping"></i>
+                    </button>
+                </div>
+            </div>
+            <div class="product" data-product-id="19">
+                <img src="Diffusers/Diffuser5.jpg">
+                <div class="product-info">
+                    <h3>2500YR</h3>
+                    <button class="basket-btn">
+                        <i class="fa-solid fa-cart-shopping"></i>
+                    </button>
+                </div>
+            </div>
+            <div class="product" data-product-id="20">
+                <img src="Diffusers/Diffuser6.jpg">
+                <div class="product-info">
+                    <h3>2000YR</h3>
+                    <button class="basket-btn">
+                        <i class="fa-solid fa-cart-shopping"></i>
+                    </button>
+                </div>
+            </div>
+            <div class="product" data-product-id="21">
+                <img src="Diffusers/Diffuser7.jpg">
+                <div class="product-info">
+                    <h3>2000YR</h3>
+                    <button class="basket-btn">
+                        <i class="fa-solid fa-cart-shopping"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div id="product-details" class="details-panel">
+        <div class="details-content">
+            <span id="close-details" class="close-btn">&times;</span>
+            <h2 id="product-name"></h2>
+            <span id="product-price"></span>
+            <p id="product-description"></p>
+
+            <!-- Color Selection with Checkboxes -->
+            <h3 data-en="Choose Colors:" data-ar="اختر الألوان">Choose Colors:</h3>
+            <div class="color-selection">
+                <label>
+                    <input type="checkbox" value="Red" class="color-checkbox">
+                    <span class="color-circle" style="background-color: Red;"></span>
+                </label>
+                <label>
+                    <input type="checkbox" value="Pink" class="color-checkbox">
+                    <span class="color-circle" style="background-color: Pink;"></span>
+                </label>
+                <label>
+                    <input type="checkbox" value="Yellow" class="color-checkbox">
+                    <span class="color-circle" style="background-color: Yellow;"></span>
+                </label>
+                <label>
+                    <input type="checkbox" value="Blue" class="color-checkbox">
+                    <span class="color-circle" style="background-color: Blue;"></span>
+                </label>
+                <label>
+                    <input type="checkbox" value="Green" class="color-checkbox">
+                    <span class="color-circle" style="background-color: Green;"></span>
+                </label>
+                <label>
+                    <input type="checkbox" value="Purple" class="color-checkbox">
+                    <span class="color-circle" style="background-color: Purple;"></span>
+                </label>
+                <label>
+                    <input type="checkbox" value="Orange" class="color-checkbox">
+                    <span class="color-circle" style="background-color: Orange;"></span>
+                </label>
+                <label>
+                    <input type="checkbox" value="Brown" class="color-checkbox">
+                    <span class="color-circle" style="background-color: Brown;"></span>
+                </label>
+                <label>
+                    <input type="checkbox" value="Grey" class="color-checkbox">
+                    <span class="color-circle" style="background-color: Grey;"></span>
+                </label>
+            </div>
+
+            <!-- Scent Selection with Checkboxes -->
+            <h3 data-en="Choose Scents:" data-ar="اختر الروائح">Choose Scents:</h3>
+
+            <label>
+                <input type="checkbox" value="Lavender" class="scent-checkbox" data-en="Lavender" data-ar="لافندر">
+            </label><br>
+            
+            <label>
+                <input type="checkbox" value="Lavender & Lemon" class="scent-checkbox" data-en="Lavender & Lemon" data-ar="لافندر وليمون">
+            </label><br>
+            
+            <label>
+                <input type="checkbox" value="Vanilla" class="scent-checkbox" data-en="Vanilla" data-ar="فانيليا">
+            </label><br>
+            
+            <label>
+                <input type="checkbox" value="Musk" class="scent-checkbox" data-en="Musk" data-ar="مسك">
+            </label><br>
+            
+            <label>
+                <input type="checkbox" value="Gardenia" class="scent-checkbox" data-en="Gardenia" data-ar="جاردينيا">
+            </label><br>            
+            
+            <!-- Quantity selector -->
+            <div>
+                <label for="quantity" data-en="Quantity:" data-ar="الكمية"></label>
+                <button id="minus-btn">-</button>
+                <input type="text" id="quantity" value="1" readonly>
+                <button id="plus-btn">+</button>
+            </div>
+
+            
+            <!-- Additional information -->
+            <div>
+                <label for="additional-info" data-en="Additional Information:" data-ar="معلومات إضافية"></label>
+                <textarea id="additional-info" rows="3" ></textarea>
+            </div>
+            
+                <button class="add-to-basket-btn" data-en="Add to Basket" data-ar="أضف إلى السلة"></button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Basket Summary Section -->
+    <div id="basket-summary" class="basket-summary">
+        <div class="summary-content">
+            <h2 data-en="Your Basket" data-ar="سلتك">Your Basket</h2>
+            <ul id="basket-items">
+                <!-- Basket items will be dynamically added here by JavaScript -->
+            </ul>
+            <span id="final-total" data-en="Total: 0 YR" data-ar="الإجمالي: 0 ريال">Total: 0 YR</span>
+
+            <!-- Contact Information Section -->
+            <div id="contact-info">
+                <label for="customer-name" data-en="Name (required):" data-ar="الاسم (مطلوب)">Name (required):</label>
+                <input type="text" id="customer-name" name="customer-name" required>
+
+                <label for="customer-number" data-en="Phone Number (required):" data-ar="رقم الهاتف (مطلوب)">Phone Number (required):</label>
+                <input type="tel" id="customer-number" name="customer-number" required>
+
+                <label for="customer-address" data-en="Address:" data-ar="العنوان">Address:</label>
+                <input type="text" id="customer-address" name="customer-address">
+            </div>
+
+            <button id="send-whatsapp-btn" class="whatsapp-btn" data-en="Send via WhatsApp" data-ar="أرسل عبر الواتساب">Send via WhatsApp</button>
+            <button id="delete-all-btn" class="delete-all-btn" data-en="Delete All" data-ar="احذف الكل">Delete All</button>
+            <button id="close-basket-summary" class="close-btn">&times;</button>
+        </div>
+    </div>
+
+    <div class="button-container">
+        <a href="index.html" class="back-button" data-en="Go Back to Main Page" data-ar="العودة إلى الصفحة الرئيسية">Go Back to Main Page</a>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="products.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
+

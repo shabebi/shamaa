@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shamaa Candle</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+
+    <!-- Language Toggle Button -->
+    <div id="language-toggle" class="language-toggle">
+        <i class="fa-solid fa-globe"></i>
+    </div>
+
+    <div class="basket-icon" id="basket-icon">
+        <i class="fa-solid fa-cart-shopping"></i>
+    </div>
+
+    <header>
+        <div class="container">
+            <nav>
+                <!-- home <i class="fa-solid fa-house"></i>  -->
+                <p><a href="#home" data-en="Home" data-ar="الرئيسية">Home</a></p>
+                <p><a href="#products" data-en="Products" data-ar="المنتجات">Products</a></p>
+                <p><a href="#about" data-en="About" data-ar="عن الشركة">About</a></p>
+            </nav>
+        </div>
+    </header>
+
+    <div class="center-image-container" id="home">
+        <img src="logo.png" alt="The logo" class="center-image">
+    </div>
+
+    <section class="hero">
+        <div class="container">
+            <h2 data-en="Welcome to Shamaa" data-ar="مرحباً بكم في شَمَعَة">Welcome to Shamaa</h2>
+            <p data-en="Explore our exquisite collection of handmade and healthy candles" data-ar="استكشف مجموعتنا الرائعة من الشموع اليدوية والصحية">Explore our exquisite collection of handmade and healthy candles</p>
+        </div>
+    </section>
+
+    <section class="products" id="products">
+        <div class="container2">
+            <div class="product">
+                <a href="Bouquets.html">
+                    <img src="/Bouquets/Bouquet7.jpg">
+                    <h3 class="center" data-en="Flower Bouquets" data-ar="باقات الزهور">Flower Bouquets</h3>
+                </a>
+            </div>
+            <div class="product">
+                <a href="Tags.html">
+                    <img src="/Tags/Tag.jpg">
+                    <h3 class="center" data-en="Scented Tags" data-ar="بطاقات معطرة">Scented Tags</h3>
+                </a>
+            </div>
+            <div class="product">
+                <a href="Diffusers.html">
+                    <img src="/Diffusers/Diffuser.jpg">
+                    <h3 class="center" data-en="Scented Diffusers" data-ar="فواحات معطرة">Scented Diffusers</h3>
+                </a>
+            </div> 
+        </div>
+    </section>
+
+    <section class="about" id="about">
+        <div class="container">
+            <h2 data-en="About Us" data-ar="عن الشركة">About Us</h2>
+            <p id="about-text" 
+                data-en="A business to manufacture healthy scented candles
+                100% natural soy wax is used
+                Soy wax: It is an organic wax that does not produce toxic fumes during combustion.
+                Soy wax is a slow-burning product, thus providing 30-50% longer lifetime for the candle compared to other candles."
+                data-ar="شركة لتصنيع الشموع المعطرة الصحية
+                يتم استخدام شمع الصويا الطبيعي %100
+                شمع الصويا: هو شمع عضوي لا ينتج أبخرة سامة أثناء الاحتراق.
+                شمع الصويا منتج بطيء الاحتراق، مما يوفر عمرًا أطول للشمعة بنسبة 30-50% مقارنة بالشموع الأخرى.">
+                A business to manufacture healthy scented candles
+                100% natural soy wax is used
+                Soy wax: It is an organic wax that does not produce toxic fumes during combustion.
+                Soy wax is a slow-burning product, thus providing 30-50% longer lifetime for the candle compared to other candles
+            </p>
+        </div>
+    </section>
+
+    <section class="contact" id="contact">
+        <div class="container">
+            <h2 data-en="Contact Us" data-ar="اتصل بنا">Contact Us</h2>
+            
+            <!-- Email with icon -->
+            <p>
+                <i class="fas fa-envelope"></i>
+                <a href="mailto:shamaa1candle@gmail.com">shamaa1candle@gmail.com</a>
+            </p>
+    
+            <!-- Phone with icon -->
+            <p>
+                <i class="fas fa-phone"></i>
+                <a href="tel:+967733706488">+967733706488</a>
+            </p>
+    
+            <!-- Instagram with icon -->
+            <p>
+                <i class="fab fa-instagram"></i>
+                <a href="https://instagram.com/shamaa.ye" target="_blank">@shamaa.ye</a>
+            </p>
+        </div>
+    </section>
+    
+
+    <!-- Basket Summary Section -->
+    <div id="basket-summary" class="basket-summary">
+        <div class="summary-content">
+            <h2 data-en="Your Basket" data-ar="سلتك">Your Basket</h2>
+            <ul id="basket-items">
+                <!-- Basket items will be dynamically added here by JavaScript -->
+            </ul>
+            <span id="final-total" data-en="Total: 0 YR" data-ar="الإجمالي: 0 ريال">Total: 0 YR</span>
+
+            <!-- Contact Information Section -->
+            <div id="contact-info">
+                <label for="customer-name" data-en="Name (required):" data-ar="الاسم (مطلوب)">Name (required):</label>
+                <input type="text" id="customer-name" name="customer-name" required>
+
+                <label for="customer-number" data-en="Phone Number (required):" data-ar="رقم الهاتف (مطلوب)">Phone Number (required):</label>
+                <input type="tel" id="customer-number" name="customer-number" required>
+
+                <label for="customer-address" data-en="Address:" data-ar="العنوان">Address:</label>
+                <input type="text" id="customer-address" name="customer-address">
+            </div>
+
+            <button id="send-whatsapp-btn" class="whatsapp-btn" data-en="Send via WhatsApp" data-ar="أرسل عبر الواتساب">Send via WhatsApp</button>
+            <button id="delete-all-btn" class="delete-all-btn" data-en="Delete All" data-ar="احذف الكل">Delete All</button>
+            <button id="close-basket-summary" class="close-btn">&times;</button>
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="products.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
