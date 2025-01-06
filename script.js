@@ -104,6 +104,7 @@ $(document).ready(function() {
     // Close product details panel
     $closeDetailsBtn.on("click", function() {
         $detailsPanel.removeClass("active");
+        resetFields();
     });
 
     // Reset input fields
