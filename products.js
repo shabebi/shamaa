@@ -76,7 +76,7 @@ const products = [
         id: 10, 
         name: 'Scented Tag (Hexagon)', 
         name_ar: 'تاق شمعي (سداسية)', 
-        price: 1350, 
+        price: 1250, 
         description: 'Offers a long-lasting fragrance for your car or wardrobe. It freshens your space effortlessly.', 
         description_ar: 'تمنحك رائحة تدوم طويلاً لسيارتك أو خزانة ملابسك، وتنعش المكان بسهولة'
     },
@@ -84,7 +84,7 @@ const products = [
         id: 11, 
         name: 'Scented Tag (Sunflower)', 
         name_ar: 'تاق شمعي (دوار الشمس)', 
-        price: 1350, 
+        price: 1250, 
         description: 'Offers a long-lasting fragrance for your car or wardrobe. It freshens your space effortlessly.', 
         description_ar: 'تمنحك رائحة تدوم طويلاً لسيارتك أو خزانة ملابسك، وتنعش المكان بسهولة'
     },
@@ -92,7 +92,7 @@ const products = [
         id: 12, 
         name: 'Scented Tag (Oval)', 
         name_ar: 'تاق شمعي (بيضاوية)', 
-        price: 1350, 
+        price: 1250, 
         description: 'Offers a long-lasting fragrance for your car or wardrobe. It freshens your space effortlessly.', 
         description_ar: 'تمنحك رائحة تدوم طويلاً لسيارتك أو خزانة ملابسك، وتنعش المكان بسهولة'
     },
@@ -100,7 +100,7 @@ const products = [
         id: 13, 
         name: 'Scented Tag (Circular)', 
         name_ar: 'تاق شمعي (دائرية)', 
-        price: 1350, 
+        price: 1250, 
         description: 'Offers a long-lasting fragrance for your car or wardrobe. It freshens your space effortlessly.', 
         description_ar: 'تمنحك رائحة تدوم طويلاً لسيارتك أو خزانة ملابسك، وتنعش المكان بسهولة'
     },
@@ -108,7 +108,7 @@ const products = [
         id: 14, 
         name: 'Scented Tag (Rectangular)', 
         name_ar: 'تاق شمعي (مستطيلة)', 
-        price: 1350, 
+        price: 1250, 
         description: 'Offers a long-lasting fragrance for your car or wardrobe. It freshens your space effortlessly.', 
         description_ar: 'تمنحك رائحة تدوم طويلاً لسيارتك أو خزانة ملابسك، وتنعش المكان بسهولة'
     },
@@ -172,7 +172,7 @@ const products = [
         id: 22, 
         name: 'Black Jar Candle', 
         name_ar: 'شمعة العلبة السوداء', 
-        price: 4000, 
+        price: 3500, 
         description: 'A fragrant candle made of 100% natural wax, available in several scents and decorated with dried natural oranges.', 
         description_ar:' شمعة فواحة مصنوعة من شمع طبيعي 100% متوفرة بعدة روائح و مزينة بالبرتقال الطبيعي المجفف'
     },
@@ -180,7 +180,7 @@ const products = [
         id: 23, 
         name: 'Black Jar Candle', 
         name_ar: 'شمعة العلبة السوداء', 
-        price: 4000, 
+        price: 3500, 
         description: 'A fragrant candle made of 100% natural wax, available in several scents and decorated with dried natural roses.', 
         description_ar:' شمعة فواحة مصنوعة من شمع طبيعي 100% متوفرة بعدة روائح و مزينة بالورد الطبيعي المجفف'
     }, 
@@ -188,7 +188,7 @@ const products = [
         id: 24, 
         name: 'Black Jar Candle', 
         name_ar: 'شمعة العلبة السوداء', 
-        price: 4000, 
+        price: 3500, 
         description: 'A fragrant candle made of 100% natural wax, available in several scents and decorated with dried natural roses.', 
         description_ar:' شمعة فواحة مصنوعة من شمع طبيعي 100% متوفرة بعدة روائح و مزينة بالورد الطبيعي المجفف'
     }, 
@@ -196,7 +196,7 @@ const products = [
         id: 25, 
         name: 'Coffee candle', 
         name_ar: 'شمعة القهوة', 
-        price: 2500, 
+        price: 2000, 
         description: 'A beautiful, scented candle shaped like a coffee cup.', 
         description_ar: 'شمعة جميلة معطرة على شكل كوب قهوة'
     }, 
@@ -204,7 +204,7 @@ const products = [
         id: 26, 
         name: 'Van Gogh Candle', 
         name_ar: 'شمعة فان جوخ', 
-        price: 7000, 
+        price: 6500, 
         description: 'A fragrant candle made of 100% natural wax.', 
         description_ar: 'شمعة فواحة مصنوعة من شمع طبيعي %100'
     }, 
@@ -220,7 +220,7 @@ const products = [
         id: 28, 
         name: 'Three Roses', 
         name_ar: 'شمعة حديقة الورد', 
-        price: 17000, 
+        price: 15000, 
         description: 'A fragrant candle made of 100% natural wax, available in several scents and decorated with roses (500g)', 
         description_ar: '(500g) شمعة فواحة مصنوعة من شمع طبيعي 100% متوفرة بعدة روائح و مزينة بالورد'
     }, 
@@ -228,7 +228,7 @@ const products = [
         id: 29, 
         name: 'Pumpkin Candle', 
         name_ar: 'شمعة اليقطين', 
-        price: 5500, 
+        price: 5000, 
         description: 'A beautiful, scented pumpkin shaped candle.', 
         description_ar: 'شمعة جميلة معطرة على شكل اليقطين'
     },
@@ -236,7 +236,7 @@ const products = [
         id: 30, 
         name: 'Classic Candle', 
         name_ar: 'شمعة كلاسيكية ', 
-        price: 6000, 
+        price: 4500, 
         description: 'Decorative candle made of solid soy wax, available in different colors and scents', 
         description_ar: 'شمعة ديكور مصنوعة من شمع الصويا متوفرة بالوان و روائح مختلفة'
     },
@@ -244,7 +244,7 @@ const products = [
         id: 31, 
         name: 'Classic Candle (Short)', 
         name_ar: 'شمعة كلاسيكية', 
-        price: 6000, 
+        price: 4500, 
         description: 'Decorative candle made of solid soy wax, available in different colors and scents', 
         description_ar: 'شمعة ديكور مصنوعة من شمع الصويا متوفرة بالوان و روائح مختلفة'
     },
@@ -252,7 +252,7 @@ const products = [
         id: 32, 
         name: 'Arch Candle', 
         name_ar: 'شمعة القوس', 
-        price: 6000, 
+        price: 5500, 
         description: 'Decorative candle made of solid soy wax, available in different colors and scents', 
         description_ar: 'شمعة ديكور مصنوعة من شمع الصويا متوفرة بالوان و روائح مختلفة'
     },
@@ -268,7 +268,7 @@ const products = [
         id: 34, 
         name: 'Mini Arch Candle', 
         name_ar: 'شمعة القوس صغيرة', 
-        price: 4000, 
+        price: 3500, 
         description: 'Decorative candle made of solid soy wax, available in different colors and scents', 
         description_ar: 'شمعة ديكور مصنوعة من شمع الصويا متوفرة بالوان و روائح مختلفة'
     },
@@ -308,7 +308,7 @@ const products = [
         id: 39, 
         name: 'Winter House', 
         name_ar: 'بيت الشتاء', 
-        price: 3750, 
+        price: 2750, 
         description: 'Decorative candle made of solid soy wax, available in different colors and scents', 
         description_ar: 'شمعة ديكور مصنوعة من شمع الصويا متوفرة بالوان و روائح مختلفة'
     },
@@ -316,7 +316,7 @@ const products = [
         id: 40, 
         name: 'Home', 
         name_ar: 'شمعة البيت', 
-        price: 8000, 
+        price: 7000, 
         description: 'Decorative candle made of solid soy wax, available in different colors and scents', 
         description_ar: 'شمعة ديكور مصنوعة من شمع الصويا متوفرة بالوان و روائح مختلفة'
     },
@@ -324,7 +324,7 @@ const products = [
         id: 41, 
         name: 'Pumpkin Candles', 
         name_ar: 'مجموعة اليقطين', 
-        price: 4000, 
+        price: 3500, 
         description: 'Decorative candle made of solid soy wax, available in different colors and scents', 
         description_ar: 'شمعة ديكور مصنوعة من شمع الصويا متوفرة بالوان و روائح مختلفة'
     },
