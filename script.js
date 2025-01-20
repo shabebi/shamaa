@@ -147,9 +147,7 @@ $(document).ready(function() {
             packaging = packagingRadios.val();
 
             // Set packaging cost based on the selected option
-            if (packaging === 'Box packaging (+1000 YR)') {
-                packagingCost = 1000;
-            } else if (packaging === 'Box packaging (+150 YR)') {
+            if (packaging === 'Box packaging (+150 YR)') {
                 packagingCost = 150;
             }
         }
@@ -210,7 +208,7 @@ $(document).ready(function() {
             basket.forEach((item, index) => {
                 const listItem = `
                     <li>
-                        ${item.name}<button class="delete-item-btn" data-index="${index}">X</button><br>
+                        ${item.name}<span class="delete-item-btn" data-index="${index}">X</span><br>
                         Quantity: ${item.quantity}<br>
                         Packaging: ${item.packaging}<br>
                         Colors: ${item.colors.join(', ') || 'Default'}<br>
