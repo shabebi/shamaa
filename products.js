@@ -351,6 +351,22 @@ const products = [
         price: 7000, 
         description: 'Decorative candle made of solid soy wax, available in different colors and scents', 
         description_ar: 'شمعة ديكور مصنوعة من شمع الصويا متوفرة بالوان و روائح مختلفة'
+    },
+        { 
+        id: 45, 
+        name: 'Cheesecake Candle', 
+        name_ar: 'شمعة التشيز كيك', 
+        price: 3000, 
+        description: 'A beautiful vanilla and fruit scented candle.', 
+        description_ar: 'شمعة جميلة برائحة الفانيليا و الفواكة'
+    },
+    { 
+        id: 46, 
+        name: 'Graduation Candle', 
+        name_ar: 'شمعة التخرج', 
+        price: 3750, 
+        description: 'A fragrant candle made of 100% natural wax, available in different colors and scents', 
+        description_ar: ' شمعة فواحة مصنوعة من شمع طبيعي 100% متوفرة بعدة روائح '
     }
 ];
 
